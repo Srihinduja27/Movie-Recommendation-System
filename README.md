@@ -8,20 +8,20 @@ This project builds a hybrid recommendation engine that improves recommendation 
 It solves the limitations of single recommendation approaches by blending both techniques.
 
 ##Features##
- Personalized movie recommendations
- Hybrid filtering (Content + Collaborative)
- Movie similarity computation using cosine similarity
- SVD-based collaborative filtering model
- Fast prediction pipeline
- Modular project structure
+ 1.Personalized movie recommendations
+ 2.Hybrid filtering (Content + Collaborative)
+ 3.Movie similarity computation using cosine similarity
+ 4.SVD-based collaborative filtering model
+ 5.Fast prediction pipeline
+ 6.Modular project structure
 
 ##Tech Stack##
-Python
-Pandas / NumPy
-Scikit-learn
-Surprise (SVD model)
-Streamlit
-Pickle (model storage)
+1.Python
+2.Pandas / NumPy
+3.Scikit-learn
+4.Surprise (SVD model)
+5.Streamlit
+6.Pickle (model storage)
 
 ##Project Structure##
 Hybrid-Movie-Recommendation-System/
@@ -62,11 +62,11 @@ Recommended Movies:
 4. The Matrix
 
 ##Key Learnings##
-Hybrid recommendation systems
-Feature engineering for text-based similarity
-Matrix factorization (SVD)
-Model serialization using Pickle
-Modular ML project design
+1.Hybrid recommendation systems
+2.Feature engineering for text-based similarity
+3.Matrix factorization (SVD)
+4.Model serialization using Pickle
+5.Modular ML project design
 ⚠️ Note
 Large model files (.pkl) are excluded from GitHub due to size limits.
 They can be regenerated using preprocess.py.
